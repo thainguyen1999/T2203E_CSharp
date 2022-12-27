@@ -1,10 +1,23 @@
 ﻿
 using T2203E_CSharp.ss1;
 using T2203E_CSharp.ss2;
+using T2203E_CSharp.ss3;
 
 public class Program
 {
     static void Main(string[] args)
+    {
+        try {
+            int x=10, y=20;
+            throw new Exception("Y bằng 0 mất rồi");
+            float z = x / y;
+        }
+        catch(Exception ex) { 
+            Console.WriteLine(ex.Message);
+        }
+        finally { }
+    }
+    static void Main2(string[] args)
     {
         Human h = new Human();
         h.run();
