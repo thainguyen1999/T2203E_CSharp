@@ -44,7 +44,6 @@ namespace T2203E_CSharp.Ex2
         public override void Sort()
         {
             throw new NotImplementedException();
-
         }
       public class PhoneEntry
         {

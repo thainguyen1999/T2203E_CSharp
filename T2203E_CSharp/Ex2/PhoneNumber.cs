@@ -7,7 +7,6 @@ using System.Threading.Tasks;
 namespace T2203E_CSharp.Ex2
 {
     public class PhoneNumber
-
     {
     }
 }

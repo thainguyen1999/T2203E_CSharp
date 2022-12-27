@@ -12,7 +12,6 @@ namespace T2203E_CSharp.Ex2
         public abstract void RemovePhone(string name);
         public abstract void UpdatePhone(string name, string newphone);
         public abstract void SearchPhone(string name);
-
         public abstract void Sort();
     }
 }
